@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Background -->
+  <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Central Service Hub -->
+  <circle cx="400" cy="200" r="80" fill="#0078d7"/>
+  <text x="400" y="190" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">HR Service</text>
+  <text x="400" y="215" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">Integration Hub</text>
+  
+  <!-- Service Connectors -->
+  <circle cx="200" cy="150" r="50" fill="#512bd4"/>
+  <text x="200" y="155" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">ADP</text>
+  
+  <circle cx="200" cy="300" r="50" fill="#00b7c3"/>
+  <text x="200" y="305" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">Quest</text>
+  <text x="200" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">Diagnostics</text>
+  
+  <circle cx="600" cy="150" r="50" fill="#107c41"/>
+  <text x="600" y="155" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">HR-Path</text>
+  
+  <circle cx="600" cy="300" r="50" fill="#f25022"/>
+  <text x="600" y="305" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">Internal</text>
+  <text x="600" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">HR Systems</text>
+  
+  <!-- Connection Lines -->
+  <line x1="250" y1="150" x2="320" y2="177" stroke="#333333" stroke-width="3"/>
+  <polygon points="312,170 326,180 316,190" fill="#333333"/>
+  
+  <line x1="250" y1="300" x2="320" y2="230" stroke="#333333" stroke-width="3"/>
+  <polygon points="312,240 326,224 322,212" fill="#333333"/>
+  
+  <line x1="550" y1="150" x2="480" y2="177" stroke="#333333" stroke-width="3"/>
+  <polygon points="488,170 474,180 484,190" fill="#333333"/>
+  
+  <line x1="550" y1="300" x2="480" y2="230" stroke="#333333" stroke-width="3"/>
+  <polygon points="488,240 474,224 478,212" fill="#333333"/>
+  
+  <!-- Data Flow -->
+  <circle cx="285" cy="163" r="12" fill="#ffffff"/>
+  <text x="285" y="168" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">↔</text>
+  
+  <circle cx="285" cy="265" r="12" fill="#ffffff"/>
+  <text x="285" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">↔</text>
+  
+  <circle cx="515" cy="163" r="12" fill="#ffffff"/>
+  <text x="515" y="168" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">↔</text>
+  
+  <circle cx="515" cy="265" r="12" fill="#ffffff"/>
+  <text x="515" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">↔</text>
+  
+  <!-- Service Features -->
+  <rect x="100" y="390" width="120" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="160" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">Payroll Integration</text>
+  
+  <rect x="240" y="390" width="120" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="300" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">Health Screening</text>
+  
+  <rect x="380" y="390" width="120" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="440" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">Benefits Admin</text>
+  
+  <rect x="520" y="390" width="120" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="580" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">Onboarding</text>
+  
+  <!-- Title -->
+  <text x="400" y="90" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">HR Service Integrations</text>
+</svg>

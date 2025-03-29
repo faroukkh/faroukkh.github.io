@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#e0e0e0"/>
+  <circle cx="400" cy="300" r="180" fill="#0078d7"/>
+  <circle cx="400" cy="200" r="60" fill="#ffffff"/>
+  <path d="M400 280 Q400 260 400 240 Q320 240 320 320 Q320 400 400 400 Q480 400 480 320 Q480 240 400 240" fill="#ffffff"/>
+  <rect x="240" y="420" width="320" height="220" rx="20" fill="#512bd4"/>
+  <text x="400" y="510" font-family="Arial" font-size="32" text-anchor="middle" fill="#ffffff">PROFILE</text>
+  <text x="400" y="560" font-family="Arial" font-size="24" text-anchor="middle" fill="#ffffff">.NET Developer</text>
+  <text x="400" y="600" font-family="Arial" font-size="24" text-anchor="middle" fill="#ffffff">Technical Lead</text>
+</svg>

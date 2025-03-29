@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Background -->
+  <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="90" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">Secure File Management System</text>
+  
+  <!-- File Storage Database -->
+  <rect x="100" y="150" width="240" height="180" rx="5" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="220" y="180" font-family="Arial" font-size="18" text-anchor="middle" fill="#0078d7">SQL Server</text>
+  <text x="220" y="205" font-family="Arial" font-size="16" text-anchor="middle" fill="#0078d7">File Table Storage</text>
+  
+  <!-- File Rows -->
+  <rect x="120" y="230" width="200" height="30" rx="3" fill="#f0f0f0"/>
+  <rect x="130" y="235" width="20" height="20" fill="#0078d7"/>
+  <text x="160" y="250" font-family="Arial" font-size="12" text-anchor="start" fill="#333333">file1.pdf</text>
+  <text x="270" y="250" font-family="Arial" font-size="10" text-anchor="end" fill="#767676">CRC: 43A2F...</text>
+  
+  <rect x="120" y="270" width="200" height="30" rx="3" fill="#f0f0f0"/>
+  <rect x="130" y="275" width="20" height="20" fill="#512bd4"/>
+  <text x="160" y="290" font-family="Arial" font-size="12" text-anchor="start" fill="#333333">file2.docx</text>
+  <text x="270" y="290" font-family="Arial" font-size="10" text-anchor="end" fill="#767676">CRC: 8B27C...</text>
+  
+  <rect x="120" y="310" width="200" height="30" rx="3" fill="#f0f0f0"/>
+  <rect x="130" y="315" width="20" height="20" fill="#107c41"/>
+  <text x="160" y="330" font-family="Arial" font-size="12" text-anchor="start" fill="#333333">file3.xlsx</text>
+  <text x="270" y="330" font-family="Arial" font-size="10" text-anchor="end" fill="#767676">CRC: F12E0...</text>
+  
+  <!-- Security Features -->
+  <circle cx="500" cy="180" r="60" fill="#f2502220" stroke="#f25022" stroke-width="2"/>
+  <text x="500" cy="165" font-family="Arial" font-size="16" text-anchor="middle" fill="#f25022">Always</text>
+  <text x="500" cy="185" font-family="Arial" font-size="16" text-anchor="middle" fill="#f25022">Encrypted</text>
+  <text x="500" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#767676">Sensitive Data Protection</text>
+  
+  <circle cx="500" cy="320" r="60" fill="#00b7c320" stroke="#00b7c3" stroke-width="2"/>
+  <text x="500" cy="305" font-family="Arial" font-size="16" text-anchor="middle" fill="#00b7c3">CRC32</text>
+  <text x="500" y="325" font-family="Arial" font-size="16" text-anchor="middle" fill="#00b7c3">Algorithm</text>
+  <text x="500" y="345" font-family="Arial" font-size="12" text-anchor="middle" fill="#767676">Data Integrity Check</text>
+  
+  <!-- Connection Lines -->
+  <line x1="340" y1="180" x2="440" y2="180" stroke="#f25022" stroke-width="2"/>
+  <polygon points="430,175 440,180 430,185" fill="#f25022"/>
+  
+  <line x1="340" y1="280" x2="440" y2="320" stroke="#00b7c3" stroke-width="2"/>
+  <polygon points="430,314 440,320 427,324" fill="#00b7c3"/>
+  
+  <!-- Search Elements -->
+  <rect x="150" y="370" width="500" height="50" rx="5" fill="#f9f9f9" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="170" y="400" font-family="Arial" font-size="16" fill="#333333">Full Text Search</text>
+  <text x="320" y="400" font-family="Arial" font-size="14" fill="#767676">Search inside document content</text>
+  <rect x="580" y="380" width="50" height="30" rx="15" fill="#0078d7"/>
+  <text x="605" y="400" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">Go</text>
+  
+  <!-- Lock Icon -->
+  <rect x="650" y="80" width="30" height="40" rx="5" fill="#107c41"/>
+  <rect x="657" y="75" width="16" height="15" rx="2" fill="#107c41"/>
+  <circle cx="665" cy="95" r="5" fill="#ffffff"/>
+  <rect x="663" y="92" width="4" height="10" fill="#ffffff"/>
+</svg>

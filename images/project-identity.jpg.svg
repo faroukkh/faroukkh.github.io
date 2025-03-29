@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Background -->
+  <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="90" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">Enterprise SSO Implementation</text>
+  
+  <!-- Identity Server Center -->
+  <circle cx="400" cy="200" r="70" fill="#512bd4"/>
+  <text x="400" y="190" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">Identity</text>
+  <text x="400" y="215" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">Server 4.0</text>
+  
+  <!-- Lock Icon -->
+  <circle cx="400" cy="150" r="15" fill="#ffffff"/>
+  <rect x="395" y="145" width="10" height="15" rx="2" fill="#512bd4"/>
+  <rect x="392" y="145" width="16" height="8" rx="2" fill="#512bd4"/>
+  
+  <!-- Client Applications -->
+  <rect x="100" y="120" width="150" height="60" rx="5" fill="#0078d7"/>
+  <text x="175" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">ASP.NET MVC</text>
+  <text x="175" y="175" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">Application</text>
+  
+  <rect x="100" y="220" width="150" height="60" rx="5" fill="#0078d7"/>
+  <text x="175" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">MVC.NET Core</text>
+  <text x="175" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">Application</text>
+  
+  <rect x="100" y="320" width="150" height="60" rx="5" fill="#dd0031"/>
+  <text x="175" y="355" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">Angular</text>
+  <text x="175" y="375" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">Application</text>
+  
+  <!-- Service/API -->
+  <rect x="550" y="170" width="150" height="60" rx="5" fill="#00b7c3"/>
+  <text x="625" y="205" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">Web APIs</text>
+  
+  <rect x="550" y="270" width="150" height="60" rx="5" fill="#107c41"/>
+  <text x="625" y="305" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">Protected Resources</text>
+  
+  <!-- Connection Lines -->
+  <line x1="250" y1="150" x2="330" y2="180" stroke="#333333" stroke-width="2" stroke-dasharray="5 5"/>
+  <polygon points="320,173 336,182 326,190" fill="#333333"/>
+  
+  <line x1="250" y1="250" x2="330" y2="210" stroke="#333333" stroke-width="2" stroke-dasharray="5 5"/>
+  <polygon points="320,217 336,205 330,196" fill="#333333"/>
+  
+  <line x1="250" y1="350" x2="330" y2="240" stroke="#333333" stroke-width="2" stroke-dasharray="5 5"/>
+  <polygon points="323,248 335,235 339,247" fill="#333333"/>
+  
+  <line x1="470" y1="180" x2="550" y2="190" stroke="#333333" stroke-width="2" stroke-dasharray="5 5"/>
+  <polygon points="540,183 556,192 542,198" fill="#333333"/>
+  
+  <line x1="470" y1="220" x2="550" y2="290" stroke="#333333" stroke-width="2" stroke-dasharray="5 5"/>
+  <polygon points="540,280 554,294 538,298" fill="#333333"/>
+  
+  <!-- Protocol Badges -->
+  <rect x="290" y="300" width="80" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="330" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">OAuth 2.0</text>
+  
+  <rect x="380" y="300" width="80" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="420" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">OpenID</text>
+  
+  <rect x="470" y="300" width="80" height="30" rx="15" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="510" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">JWT</text>
+  
+  <!-- User -->
+  <circle cx="250" cy="400" r="25" fill="#f25022"/>
+  <circle cx="250" cy="370" r="15" fill="#f25022"/>
+  <text x="300" y="405" font-family="Arial" font-size="14" text-anchor="start" fill="#333333">Single Sign-On</text>
+  <text x="300" y="425" font-family="Arial" font-size="12" text-anchor="start" fill="#767676">One login for all applications</text>
+</svg>

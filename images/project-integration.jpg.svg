@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Background -->
+  <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Integration Diagram -->
+  <rect x="150" y="100" width="200" height="80" rx="10" fill="#0078d7"/>
+  <text x="250" y="150" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">Internal Systems</text>
+  
+  <rect x="450" y="100" width="200" height="80" rx="10" fill="#512bd4"/>
+  <text x="550" y="150" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">Kinetic by Epicor</text>
+  
+  <!-- Connection Lines -->
+  <line x1="350" y1="140" x2="450" y2="140" stroke="#333333" stroke-width="3" stroke-dasharray="8 4"/>
+  <polygon points="440,130 450,140 440,150" fill="#333333"/>
+  
+  <line x1="450" y1="170" x2="350" y2="170" stroke="#333333" stroke-width="3" stroke-dasharray="8 4"/>
+  <polygon points="360,160 350,170 360,180" fill="#333333"/>
+  
+  <!-- Data Flow Elements -->
+  <circle cx="400" cy="140" r="15" fill="#00b7c3"/>
+  <text x="400" y="145" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">↑</text>
+  
+  <circle cx="400" cy="170" r="15" fill="#00b7c3"/>
+  <text x="400" y="175" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">↓</text>
+  
+  <!-- Data Types -->
+  <rect x="100" y="250" width="150" height="40" rx="5" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="175" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Orders</text>
+  
+  <rect x="100" y="300" width="150" height="40" rx="5" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="175" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Inventory</text>
+  
+  <rect x="100" y="350" width="150" height="40" rx="5" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="175" y="375" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Customer Data</text>
+  
+  <!-- API Elements -->
+  <rect x="325" y="250" width="150" height="40" rx="5" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="400" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">REST API</text>
+  
+  <rect x="325" y="300" width="150" height="40" rx="5" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="400" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">Web Services</text>
+  
+  <rect x="325" y="350" width="150" height="40" rx="5" fill="#0078d720" stroke="#0078d7" stroke-width="2"/>
+  <text x="400" y="375" font-family="Arial" font-size="14" text-anchor="middle" fill="#0078d7">OAuth</text>
+  
+  <!-- Destination Data Types -->
+  <rect x="550" y="250" width="150" height="40" rx="5" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="625" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">ERP Modules</text>
+  
+  <rect x="550" y="300" width="150" height="40" rx="5" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="625" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Financial Data</text>
+  
+  <rect x="550" y="350" width="150" height="40" rx="5" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="625" y="375" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Reporting</text>
+  
+  <!-- Connection arrows -->
+  <line x1="250" y1="270" x2="325" y2="270" stroke="#333333" stroke-width="2"/>
+  <polygon points="315,265 325,270 315,275" fill="#333333"/>
+  
+  <line x1="250" y1="320" x2="325" y2="320" stroke="#333333" stroke-width="2"/>
+  <polygon points="315,315 325,320 315,325" fill="#333333"/>
+  
+  <line x1="250" y1="370" x2="325" y2="370" stroke="#333333" stroke-width="2"/>
+  <polygon points="315,365 325,370 315,375" fill="#333333"/>
+  
+  <line x1="475" y1="270" x2="550" y2="270" stroke="#333333" stroke-width="2"/>
+  <polygon points="540,265 550,270 540,275" fill="#333333"/>
+  
+  <line x1="475" y1="320" x2="550" y2="320" stroke="#333333" stroke-width="2"/>
+  <polygon points="540,315 550,320 540,325" fill="#333333"/>
+  
+  <line x1="475" y1="370" x2="550" y2="370" stroke="#333333" stroke-width="2"/>
+  <polygon points="540,365 550,370 540,375" fill="#333333"/>
+</svg>

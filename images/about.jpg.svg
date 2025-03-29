@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Background Elements -->
+  <rect x="40" y="40" width="720" height="520" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="70" y="80" width="660" height="200" rx="5" fill="#0078d740"/>
+  
+  <!-- Code Editor Window -->
+  <rect x="70" y="310" width="660" height="220" rx="5" fill="#252525"/>
+  <rect x="70" y="310" width="660" height="30" rx="5" fill="#333333"/>
+  <circle cx="90" cy="325" r="5" fill="#ff6058"/>
+  <circle cx="110" cy="325" r="5" fill="#ffbd2e"/>
+  <circle cx="130" cy="325" r="5" fill="#28ca41"/>
+  <text x="400" y="330" font-family="Consolas, monospace" font-size="12" text-anchor="middle" fill="#ffffff">code-portfolio.cs</text>
+  
+  <!-- Code Lines -->
+  <text x="90" y="360" font-family="Consolas, monospace" font-size="14" fill="#d4d4d4">using System;</text>
+  <text x="90" y="380" font-family="Consolas, monospace" font-size="14" fill="#d4d4d4">using System.Web;</text>
+  <text x="90" y="400" font-family="Consolas, monospace" font-size="14" fill="#d4d4d4">using Microsoft.AspNetCore.Mvc;</text>
+  <text x="90" y="420" font-family="Consolas, monospace" font-size="14" fill="#d4d4d4"></text>
+  <text x="90" y="440" font-family="Consolas, monospace" font-size="14" fill="#569cd6">public class</text>
+  <text x="180" y="440" font-family="Consolas, monospace" font-size="14" fill="#4ec9b0"> DeveloperProfile</text>
+  <text x="310" y="440" font-family="Consolas, monospace" font-size="14" fill="#d4d4d4"> {</text>
+  <text x="110" y="460" font-family="Consolas, monospace" font-size="14" fill="#dcdcaa">    public string GetExperience() => "10+ Years .NET Development";</text>
+  <text x="90" y="480" font-family="Consolas, monospace" font-size="14" fill="#d4d4d4">}</text>
+  
+  <!-- Laptop Frame -->
+  <rect x="250" y="120" width="300" height="200" rx="10" fill="#252525"/>
+  <rect x="260" y="130" width="280" height="170" rx="2" fill="#0078d7"/>
+  
+  <!-- Developer Icon -->
+  <circle cx="400" cy="190" r="40" fill="#ffffff"/>
+  <rect x="380" y="150" width="40" height="30" fill="#ffffff"/>
+  <circle cx="400" cy="140" r="20" fill="#ffffff"/>
+  
+  <!-- Text Elements -->
+  <text x="400" y="250" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">Technical Lead &amp; .NET Developer</text>
+</svg>
